@@ -3,7 +3,9 @@
   "defaultProvider": "opencode-go",
   "defaultModel": "deepseek-v4-flash",
   "defaultThinkingLevel": "high",
+  "theme": "ghostty-sync-4cf8eda3",
   "packages": [
+    "npm:pi-opencode-bridge",
     "npm:@ogulcancelik/pi-goal",
     "npm:@ogulcancelik/pi-minimal-footer",
     "npm:@ogulcancelik/pi-model-agents",
@@ -11,6 +13,5 @@
     "npm:@ogulcancelik/pi-spar",
     "npm:@ogulcancelik/pi-web-browse",
     "npm:@ogulcancelik/pi-ghostty-theme-sync"
-  ],
-  "theme": "ghostty-sync-4cf8eda3"
+  ]
 }
