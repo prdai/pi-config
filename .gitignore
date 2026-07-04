@@ -9,6 +9,7 @@ agent/spar/
 
 # Dependencies
 **/node_modules/
+agent/node_modules
 **/package-lock.json
 
 # OS files

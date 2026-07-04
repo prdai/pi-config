@@ -7,6 +7,7 @@ Personal [pi](https://pi.dev) coding agent configuration — extensions, skills,
 ```bash
 git clone https://github.com/prdai-archive/pi-config.git ~/.pi
 cd ~/.pi/agent/npm && npm install
+ln -s npm/node_modules ~/.pi/agent/node_modules  # extensions resolve deps via this symlink
 export ANTHROPIC_API_KEY=sk-ant-...  # or run /login inside pi
 pi
 ```
